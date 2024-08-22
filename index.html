@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Веб-разработчик - Главная</title>
+	<link rel="stylesheet" href="./css/main.css" />
+
+	<link rel="icon" type="image/x-icon" href="./img/icon.svg">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/icon.svg">
+</head>
+
+<body>
+	<header class="header">
+    <div class="header__container">
+        <div class="header__logo"><a href="/">K. Golubeva</a></div>
+
+        <div class="header__menu header-menu">
+            <nav class="header-menu__nav">
+                <ul class="header-menu__list">
+                    <li><a href="#about-section" class="header-menu__link">Обо мне</a></li>
+                    <li><a href="#services-section" class="header-menu__link">Чем я занимаюсь</a></li>
+                    <li><a href="#skills-section" class="header-menu__link">Навыки</a></li>
+                    <li><a href="#portfolio-section" class="header-menu__link">Портфолио</a></li>
+                    <li><a href="#contacts-section" class="header-menu__link">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-menu__burger burger"><span></span></div>
+        </div>
+    </div>
+</header>
+
+	<main class="main-page">
+
+		<section class="main-page__first-screen first-screen">
+			<div class="first-screen__container">
+				<div class="first-screen__info">
+					<div class="first-screen__subtitle title_small">Сайт-портфолио WEB-разработчика</div>
+					<div class="first-screen__title title_h1">Голубева Карина </div>
+					<div class="first-screen__text">Создание сайтов с 0 и внесение правок в действующие проекты</div>
+					<div class="first-screen__buttons">
+						<a class="first-screen__button button" href="#">Обо мне</a>
+						<a class="first-screen__button button button_line" href="#">Портфолио</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="main-page__about about">
+			<a name="about-section"></a>
+			<div class="about__container">
+				<div class="about__subtitle title_small">Обо мне</div>
+				<div class="about__title title_h2">Привет! Меня зовут Карина.</div>
+
+				<div class="about__column">
+
+					<div class="about__text about-text">
+						<div class="about-text__topic">
+							<p class="about-text__topic-name">Сферы деятельности до создания сайтов</p>
+							<p>Всю жизнь мои увлечения так или иначе были связаны с деятельностью за компьютером. Я увлекалась рисованием в графических программах, став постарше, в 2012 году стала заниматься фотографией и проработала в этой области более 6 лет. Решив сменить сферу деятельности, в <span class="year-marker">2018</span> году, увлеклась веб-дизайном, а в скорее и интернет-маркетингом, получая высшее образование по направлению маркетинг.</p>
+						</div>
+						<div class="about-text__topic">
+							<p class="about-text__topic-name">Начало пути</p>
+							<p>Свой путь в создании сайтов начала в <span class="year-marker">2020</span> году. Делала сайты на Тильде (шаблоны + zero-block), на WordPress (темы + плагины), но в итоге пришла к мысли, что создание сайтов по шаблонам и на конструкторах имеет ряд ограничений и не позволяет реализовать весь потенциал сайта в задуманном виде.</p>
+						</div>
+						<div class="about-text__topic">
+							<p class="about-text__topic-name">В настоящее время</p>
+							<p>Так в <span class="year-marker">2021</span> году начала изучать верстку сайтов и всего того, что с этим связано. По сей день я продолжаю развиваться в этом направлении и получаю удовольствие от того, чем занимаюсь.</p>
+						</div>
+						<div class="about-text__topic">
+							<p>Опыт прошлых лет помог мне развить комплексный набор навыков, которые я активно применяю в веб-разработке. Я стремлюсь к постоянному обучению и совершенствованию в разработке сайтов, чтобы предложить клиентам современные и качественные решения.</p>
+						</div>
+						<div class="about-text__topic">
+							<p>Если вы ищете профессионала, который подходит к созданию сайтов с душой и вниманием к деталям, я буду рада обсудить, как могу помочь вам в реализации ваших идей.</p>
+						</div>
+					</div>
+
+					<div class="about__image about-image">
+
+						<div class="about-image__round-img round-img">
+							<div class="round-img__img">
+								<picture>
+<source srcset="./img/me.webp 1x" type="image/webp">
+<source srcset="./img/me.jpg 1x" type="image/jpeg">
+<img src="./img/me.jpg" alt="">
+</picture>
+							</div>
+							<div class="round-img__decor-full"></div>
+							<div class="round-img__decor-full round-img__decor-full_line"></div>
+						</div>
+
+						<div class="about-image__social">
+							<a class="about-image__social-item" href="#" target="_blank">
+								<svg class="icon icon--telegram">
+									<use href="./img/svgsprite/sprite.symbol.svg#telegram"></use>
+								</svg>
+							</a>
+							<a class="about-image__social-item" href="#" target="_blank">
+								<svg class="icon icon--github">
+									<use href="./img/svgsprite/sprite.symbol.svg#github"></use>
+								</svg>
+							</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="main-page__services services">
+			<a name="services-section"></a>
+			<div class="services__container">
+				<div class="services__subtitle title_small">Чем я занимаюсь</div>
+
+				<div class="services__section">
+					<div class="services__title title_h2">Создание сайта с 0</div>
+					<div class="services__items">
+						<div class="services__item">
+							<div class="services__title title_h4">Анализ и планирование</div>
+							<div class="services__text">Определяются цели проекта и составляется техническое задание.</div>
+						</div>
+						<div class="services__item">
+							<div class="services__title title_h4">Проектирование</div>
+							<div class="services__text">Создание структуры и прототипов страниц.</div>
+						</div>
+						<div class="services__item">
+							<div class="services__title title_h4">Дизайн</div>
+							<div class="services__text">Разработка визуального стиля сайта.</div>
+						</div>
+						<div class="services__item">
+							<div class="services__title title_h4">Разработка</div>
+							<div class="services__text">Верстка и программирование функциональности.</div>
+						</div>
+						<div class="services__item">
+							<div class="services__title title_h4">Тестирование</div>
+							<div class="services__text">Проверка корректной работы и совместимости на разных устройствах.</div>
+						</div>
+						<div class="services__item">
+							<div class="services__title title_h4">Запуск сайта</div>
+							<div class="services__text">Настройка домена и хостинга, контрольная проверка сайта.</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="services__section">
+					<div class="services__title title_h2">Внесение правок на существующих сайтах</div>
+					<div class="services__items">
+						<div class="services__item">
+							<div class="services__title title_h4">Внедрение адаптивного дизайна</div>
+							<div class="services__text">Обновление и создание адаптива вашего сайта под любые устройства.</div>
+						</div>
+						<div class="services__item">
+							<div class="services__title title_h4">Редизайн сайта</div>
+							<div class="services__text">Обновление дизайна для повышения привлекательности и удобства использования.</div>
+						</div>
+						<div class="services__item">
+							<div class="services__title title_h4">Ускорение работы сайта</div>
+							<div class="services__text">Улучшение скорости загрузки и производительности.</div>
+						</div>
+						<div class="services__item">
+							<div class="services__title title_h4">Перенос сайта</div>
+							<div class="services__text">Миграция вашего сайта на новый хостинг или платформу.</div>
+						</div>
+						<div class="services__item">
+							<div class="services__title title_h4">Настройка форм обратной связи</div>
+							<div class="services__text">Разработка формы для сбора заявок и сообщений от пользователей.</div>
+						</div>
+						<div class="services__item">
+							<div class="services__title title_h4">Обучение работе с сайтом</div>
+							<div class="services__text">Обучаю клиентов самостоятельно публиковать контент и управлять сайтом.</div>
+						</div>
+						<div class="services__item">
+							<div class="services__title title_h4">Наполнение сайта</div>
+							<div class="services__text">Добавление контента на сайт: страницы, товары, верстка новых блоков.</div>
+						</div>
+						<div class="services__item">
+							<div class="services__title title_h4">SEO-правки</div>
+							<div class="services__text">Базовая SEO оптимизация, добавление метрик, сбор статистики.</div>
+						</div>
+						<div class="services__item">
+							<div class="services__title title_h4">И многое другое</div>
+							<div class="services__text">Добавление новых функций, анимаций, обновление контента, исправление ошибок...</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="main-page__skills skills">
+			<a name="skills-section"></a>
+			<div class="skills__container">
+				<div class="skills__subtitle title_small">Мои навыки</div>
+				<div class="skills__section">
+					<div class="skills__title title_h2">Основной стек технологий</div>
+					<div class="skills__items">
+						<div class="skills__item">
+							<img src="./img/skills/languages/html5.svg" alt="HTML">
+						</div>
+						<div class="skills__item">
+							<img src="./img/skills/languages/css3.svg" alt="CSS">
+						</div>
+						<div class="skills__item">
+							<img src="./img/skills/languages/sass.svg" alt="SASS">
+						</div>
+						<div class="skills__item">
+							<img src="./img/skills/languages/javascript.svg" alt="JavaScript">
+						</div>
+						<div class="skills__item">
+							<img src="./img/skills/languages/gulp.svg" alt="Gulp">
+						</div>
+						<div class="skills__item">
+							<img src="./img/skills/languages/php.svg" alt="PHP">
+						</div>
+						<div class="skills__item">
+							<img src="./img/skills/languages/mysql.svg" alt="MySQL">
+						</div>
+					</div>
+				</div>
+				<div class="skills__section">
+					<div class="skills__title title_h2">Графические редакторы</div>
+					<div class="skills__items">
+						<div class="skills__item">
+							<img src="./img/skills/graphic-editors/figma.svg" alt="Figma">
+						</div>
+						<div class="skills__item">
+							<img src="./img/skills/graphic-editors/adobe-photoshop.svg" alt="Adobe Photoshop">
+						</div>
+						<div class="skills__item">
+							<img src="./img/skills/graphic-editors/adobe-xd.svg" alt="Adobe XD">
+						</div>
+					</div>
+				</div>
+				<div class="skills__section">
+					<div class="skills__title title_h2">CMS и конструкторы</div>
+					<div class="skills__items">
+						<div class="skills__item">
+							<img src="./img/skills/CMS/wordpress.svg" alt="WordPress">
+						</div>
+						<div class="skills__item">
+							<img src="./img/skills/CMS/modx.svg" alt="MODX">
+						</div>
+						<div class="skills__item">
+							<img src="./img/skills/CMS/joomla.svg" alt="Joomla">
+						</div>
+						<div class="skills__item">
+							<img src="./img/skills/CMS/bitrix.svg" alt="Bitrix">
+						</div>
+						<div class="skills__item">
+							<img src="./img/skills/CMS/opencart.svg" alt="OpenCart">
+						</div>
+						<div class="skills__item">
+							<img src="./img/skills/CMS/tilda.svg" alt="Tilda">
+						</div>
+						<div class="skills__item">
+							<img src="./img/skills/CMS/insales.svg" alt="Insales">
+						</div>
+						<!-- <div class="skills__item skills__item-text">
+							И другие...
+						</div> -->
+					</div>
+				</div>
+				<div class="skills__section">
+					<div class="skills__title title_h2">Личные характеристики</div>
+					<div class="skills__items">
+						<ul class="skills__list">
+							<li>Ответственность при реализации каждой задачи</li>
+							<li>Внимательность к деталям</li>
+							<li>Способность к самообучению</li>
+							<li>Коммуникабельность</li>
+							<li>Работа в команде</li>
+							<li>Стрессоустойчивость</li>
+							<li>Проактивность, инициативность</li>
+							<li>Способность разбираться в чужом коде</li>
+							<li>Внимание к деталям</li>
+							<li>Усидчивость, терпение</li>
+							<li>Критическое мышление</li>
+							<li>Гибкость</li>
+							<li>Личная эффективность</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="main-page__portfolio portfolio">
+			<a name="portfolio-section"></a>
+			<div class="portfolio__container">
+				<div class="portfolio__subtitle title_small">Выполненные проекты</div>
+				<div class="portfolio__title title_h2">Портфолио</div>
+
+				<div class="portfolio__items">
+
+					<div class="portfolio__item portfolio-item">
+						<div class="portfolio-item__img">
+							<picture>
+<source srcset="./img/portfolio/glamcat.webp 1x" type="image/webp">
+<source srcset="./img/portfolio/glamcat.jpg 1x" type="image/jpeg">
+<img src="./img/portfolio/glamcat.jpg" alt="Работа в портфолио - Одежда для собак GlamCat">
+</picture>
+							<div class="portfolio-item__img-hover">
+								<a href="#" class="portfolio-item__link" target="_blank">Перейти на сайт</a>
+								<div class="portfolio-item__link">Подробнее о проекте</div>
+							</div>
+						</div>
+						<div class="portfolio-item__category">Интернет-магазин</div>
+						<div class="portfolio-item__name">Одежда для собак GlamCat</div>
+					</div>
+					<div class="portfolio__item portfolio-item">
+						<div class="portfolio-item__img">
+							<picture>
+<source srcset="./img/portfolio/loongwood.webp 1x" type="image/webp">
+<source srcset="./img/portfolio/loongwood.jpg 1x" type="image/jpeg">
+<img src="./img/portfolio/loongwood.jpg" alt="Работа в портфолио - Мастерская лестниц ЛонгВуд">
+</picture>
+							<div class="portfolio-item__img-hover">
+								<a href="#" class="portfolio-item__link" target="_blank">Перейти на сайт</a>
+								<div class="portfolio-item__link">Подробнее о проекте</div>
+							</div>
+						</div>
+						<div class="portfolio-item__category">Landing Page</div>
+						<div class="portfolio-item__name">Мастерская лестниц ЛонгВуд</div>
+					</div>
+					<div class="portfolio__item portfolio-item">
+						<div class="portfolio-item__img">
+							<picture>
+<source srcset="./img/portfolio/quickfoto.webp 1x" type="image/webp">
+<source srcset="./img/portfolio/quickfoto.jpg 1x" type="image/jpeg">
+<img src="./img/portfolio/quickfoto.jpg" alt="Работа в портфолио - Услуги фотопечати QuickFoto">
+</picture>
+							<div class="portfolio-item__img-hover">
+								<a href="#" class="portfolio-item__link" target="_blank">Перейти на сайт</a>
+								<div class="portfolio-item__link">Подробнее о проекте</div>
+							</div>
+						</div>
+						<div class="portfolio-item__category">Landing Page</div>
+						<div class="portfolio-item__name">Услуги фотопечати QuickFoto</div>
+					</div>
+					<div class="portfolio__item portfolio-item">
+						<div class="portfolio-item__img">
+							<picture>
+<source srcset="./img/portfolio/whitebow.webp 1x" type="image/webp">
+<source srcset="./img/portfolio/whitebow.jpg 1x" type="image/jpeg">
+<img src="./img/portfolio/whitebow.jpg" alt="Работа в портфолио - Свадебное ателье Белый Бант">
+</picture>
+							<div class="portfolio-item__img-hover">
+								<a href="#" class="portfolio-item__link" target="_blank">Перейти на сайт</a>
+								<div class="portfolio-item__link">Подробнее о проекте</div>
+							</div>
+						</div>
+						<div class="portfolio-item__category">Landing Page</div>
+						<div class="portfolio-item__name">Свадебное ателье Белый Бант</div>
+					</div>
+					<div class="portfolio__item portfolio-item">
+						<div class="portfolio-item__img">
+							<picture>
+<source srcset="./img/portfolio/portfolio.webp 1x" type="image/webp">
+<source srcset="./img/portfolio/portfolio.jpg 1x" type="image/jpeg">
+<img src="./img/portfolio/portfolio.jpg" alt="Раздел в стадии наполнения">
+</picture>
+						</div>
+						<div class="portfolio-item__name">Раздел в стадии наполнения...</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="main-page__contacts contacts">
+			<a name="contacts-section"></a>
+			<div class="contacts__container">
+				<div class="contacts__subtitle title_small">Контакты</div>
+				<div class="contacts__title title_h2">Свяжитесь со мной любым удобным для вас способом!</div>
+
+				<div class="contacts__column">
+					<div class="contacts__info">
+						<div class="contacts__item">
+							<svg class="icon icon--tel">
+								<use href="./img/svgsprite/sprite.symbol.svg#tel"></use>
+							</svg>
+							<div class="contacts__item-info">
+								<div class="contacts__label">Телефон:</div>
+								<div class="contacts__content"><a href="tel:89998171920">+7 (999) 817-19-20</a></div>
+							</div>
+						</div>
+						<div class="contacts__item">
+							<svg class="icon icon--mail">
+								<use href="./img/svgsprite/sprite.symbol.svg#mail"></use>
+							</svg>
+							<div class="contacts__item-info">
+								<div class="contacts__label">Почта:</div>
+								<div class="contacts__content"><a href="mailto:info@kareeldev.ru">info@kareeldev.ru</a></div>
+							</div>
+						</div>
+						<div class="contacts__social-links">
+							<a href="#"><img src="./img/icons/Telegram.svg" alt=""></a>
+							<a href="#"><img src="./img/icons/WhatsApp.svg" alt=""></a>
+						</div>
+					</div>
+					<form class="contacts__form contact-form" action="" method="post" name="contact-form">
+						<div class="contact-form__row">
+							<div class="contact-form__input">
+								<label for="tel">Телефон</label>
+								<input type="tel" name="tel" placeholder="+7 (900) 000-00-00" />
+							</div>
+							<div class="contact-form__input">
+								<label for="email">Email</label>
+								<input type="email" name="email" placeholder="Ваша почта" />
+							</div>
+						</div>
+						<div class="contact-form__row">
+							<div class="contact-form__input">
+								<label for="name">Имя</label>
+								<input type="text" name="name" placeholder="Ваше имя" />
+							</div>
+						</div>
+						<div class="contact-form__row">
+							<div class="contact-form__input">
+								<label for="name">Ваш вопрос</label>
+								<textarea name="textarea" rows="1" placeholder="Что вас интересует?"></textarea>
+							</div>
+						</div>
+						<div class="contact-form__row contact-form__row-last">
+							<button type="submit" class="contact-form__button button">Отправить</button>
+							<p class="contact-form__policy">Нажимая кнопку, я принимаю <a href="#">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных</p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__top">
+            <div class="footer__logo"><a href="/">K. Golubeva</a></div>
+
+            <div class="footer__menu footer-menu">
+                <nav class="footer-menu__nav">
+                    <ul class="footer-menu__list">
+                        <li><a href="#about-section" class="footer-menu__link">Обо мне</a></li>
+                        <li><a href="#services-section" class="footer-menu__link">Чем я занимаюсь</a></li>
+                        <li><a href="#skills-section" class="footer-menu__link">Навыки</a></li>
+                        <li><a href="#portfolio-section" class="footer-menu__link">Портфолио</a></li>
+                        <li><a href="#contacts-section" class="footer-menu__link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="footer__contacts">
+            <a href="tel:89998171920">+7 (999) 817-19-20</a>
+        </div>
+        <div class="footer__bottom">
+            <p>WEB-Разработчик К. Голубева © 2020 - 2024</p>
+            <p>Все материалы, размещенные на сайте, носят справочный характер и не являются публичной офертой.</p>
+        </div>
+
+    </div>
+</footer>
+	<!-- <form class="callback-form" method="post" id="callback-form">
+    <div class="callback-form__head">
+        <div class="callback-form__head-title title_h3">Заказать звонок</div>
+        <span>Заполните форму и мы свяжемся с Вами в течение 15 минут</span>
+    </div>
+    <div class="callback-form__items">
+        <div class="callback-form__item">
+            <label for="name">Имя</label>
+            <input type="name" name="name" placeholder="Ваше имя" />
+        </div>
+        <div class="callback-form__item">
+            <label for="tel">Телефон</label>
+            <input type="tel" name="tel" placeholder="+7 (900) 000-00-00" />
+        </div>
+        <div class="callback-form__item">
+            <label for="textarea">Комментарий</label>
+            <textarea name="textarea" rows="1" placeholder=""></textarea>
+        </div>
+        <div class="callback-form__policy">Нажимая кнопку, я принимаю <a href="#">соглашение о конфиденциальности</a></div>
+        <button type="submit" class="callback-form__button button">Отправить</button>
+    </div>
+</form> -->
+
+	<script src="./js/index.min.js"></script>
+</body>
+
+</html>
